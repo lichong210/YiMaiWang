@@ -1,0 +1,722 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		267661771CC632F20090C0A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 267661761CC632F20090C0A8 /* main.m */; };
+		2676617A1CC632F20090C0A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 267661791CC632F20090C0A8 /* AppDelegate.m */; };
+		267661821CC632F20090C0A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 267661811CC632F20090C0A8 /* Assets.xcassets */; };
+		267661851CC632F20090C0A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 267661831CC632F20090C0A8 /* LaunchScreen.storyboard */; };
+		267661901CC632F20090C0A8 /* YimaiWangTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2676618F1CC632F20090C0A8 /* YimaiWangTests.m */; };
+		2676619B1CC632F20090C0A8 /* YimaiWangUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2676619A1CC632F20090C0A8 /* YimaiWangUITests.m */; };
+		267661C71CC635280090C0A8 /* DiscoverTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 267661C51CC635280090C0A8 /* DiscoverTableViewController.m */; };
+		267661C81CC635280090C0A8 /* DiscoverTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 267661C61CC635280090C0A8 /* DiscoverTableViewController.xib */; };
+		267661CC1CC635410090C0A8 /* DoctorTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 267661CA1CC635410090C0A8 /* DoctorTableViewController.m */; };
+		267661CD1CC635410090C0A8 /* DoctorTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 267661CB1CC635410090C0A8 /* DoctorTableViewController.xib */; };
+		267661D41CC635660090C0A8 /* HomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 267661D21CC635660090C0A8 /* HomeTableViewController.m */; };
+		267661D51CC635660090C0A8 /* HomeTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 267661D31CC635660090C0A8 /* HomeTableViewController.xib */; };
+		267661D91CC6357F0090C0A8 /* MyHomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 267661D71CC6357F0090C0A8 /* MyHomeTableViewController.m */; };
+		267661DA1CC6357F0090C0A8 /* MyHomeTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 267661D81CC6357F0090C0A8 /* MyHomeTableViewController.xib */; };
+		267661DE1CC6358C0090C0A8 /* NewsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 267661DC1CC6358C0090C0A8 /* NewsTableViewController.m */; };
+		267661DF1CC6358C0090C0A8 /* NewsTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 267661DD1CC6358C0090C0A8 /* NewsTableViewController.xib */; };
+		267661E31CC6443F0090C0A8 /* RootTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 267661E21CC6443F0090C0A8 /* RootTabBarController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2676618C1CC632F20090C0A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2676616A1CC632F20090C0A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 267661711CC632F20090C0A8;
+			remoteInfo = YimaiWang;
+		};
+		267661971CC632F20090C0A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2676616A1CC632F20090C0A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 267661711CC632F20090C0A8;
+			remoteInfo = YimaiWang;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		267661721CC632F20090C0A8 /* YimaiWang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YimaiWang.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		267661761CC632F20090C0A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		267661781CC632F20090C0A8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		267661791CC632F20090C0A8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		267661811CC632F20090C0A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		267661841CC632F20090C0A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		267661861CC632F20090C0A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2676618B1CC632F20090C0A8 /* YimaiWangTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YimaiWangTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2676618F1CC632F20090C0A8 /* YimaiWangTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YimaiWangTests.m; sourceTree = "<group>"; };
+		267661911CC632F20090C0A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		267661961CC632F20090C0A8 /* YimaiWangUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YimaiWangUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2676619A1CC632F20090C0A8 /* YimaiWangUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YimaiWangUITests.m; sourceTree = "<group>"; };
+		2676619C1CC632F20090C0A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		267661C41CC635280090C0A8 /* DiscoverTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DiscoverTableViewController.h; path = ../DiscoverTableViewController.h; sourceTree = "<group>"; };
+		267661C51CC635280090C0A8 /* DiscoverTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DiscoverTableViewController.m; path = ../DiscoverTableViewController.m; sourceTree = "<group>"; };
+		267661C61CC635280090C0A8 /* DiscoverTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DiscoverTableViewController.xib; path = ../DiscoverTableViewController.xib; sourceTree = "<group>"; };
+		267661C91CC635410090C0A8 /* DoctorTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoctorTableViewController.h; sourceTree = "<group>"; };
+		267661CA1CC635410090C0A8 /* DoctorTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoctorTableViewController.m; sourceTree = "<group>"; };
+		267661CB1CC635410090C0A8 /* DoctorTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DoctorTableViewController.xib; sourceTree = "<group>"; };
+		267661D11CC635660090C0A8 /* HomeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTableViewController.h; sourceTree = "<group>"; };
+		267661D21CC635660090C0A8 /* HomeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewController.m; sourceTree = "<group>"; };
+		267661D31CC635660090C0A8 /* HomeTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeTableViewController.xib; sourceTree = "<group>"; };
+		267661D61CC6357F0090C0A8 /* MyHomeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyHomeTableViewController.h; sourceTree = "<group>"; };
+		267661D71CC6357F0090C0A8 /* MyHomeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyHomeTableViewController.m; sourceTree = "<group>"; };
+		267661D81CC6357F0090C0A8 /* MyHomeTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyHomeTableViewController.xib; sourceTree = "<group>"; };
+		267661DB1CC6358C0090C0A8 /* NewsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsTableViewController.h; sourceTree = "<group>"; };
+		267661DC1CC6358C0090C0A8 /* NewsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsTableViewController.m; sourceTree = "<group>"; };
+		267661DD1CC6358C0090C0A8 /* NewsTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewsTableViewController.xib; sourceTree = "<group>"; };
+		267661E11CC6443F0090C0A8 /* RootTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootTabBarController.h; sourceTree = "<group>"; };
+		267661E21CC6443F0090C0A8 /* RootTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootTabBarController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2676616F1CC632F20090C0A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		267661881CC632F20090C0A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		267661931CC632F20090C0A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		267661691CC632F20090C0A8 = {
+			isa = PBXGroup;
+			children = (
+				267661A81CC633E50090C0A8 /* discover */,
+				267661A91CC633E50090C0A8 /* doctor circle */,
+				267661AA1CC633E50090C0A8 /* home page */,
+				267661AB1CC633E50090C0A8 /* myhome */,
+				267661AC1CC633E50090C0A8 /* news */,
+				267661741CC632F20090C0A8 /* YimaiWang */,
+				2676618E1CC632F20090C0A8 /* YimaiWangTests */,
+				267661991CC632F20090C0A8 /* YimaiWangUITests */,
+				267661731CC632F20090C0A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		267661731CC632F20090C0A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				267661721CC632F20090C0A8 /* YimaiWang.app */,
+				2676618B1CC632F20090C0A8 /* YimaiWangTests.xctest */,
+				267661961CC632F20090C0A8 /* YimaiWangUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		267661741CC632F20090C0A8 /* YimaiWang */ = {
+			isa = PBXGroup;
+			children = (
+				267661781CC632F20090C0A8 /* AppDelegate.h */,
+				267661791CC632F20090C0A8 /* AppDelegate.m */,
+				267661E11CC6443F0090C0A8 /* RootTabBarController.h */,
+				267661E21CC6443F0090C0A8 /* RootTabBarController.m */,
+				267661811CC632F20090C0A8 /* Assets.xcassets */,
+				267661831CC632F20090C0A8 /* LaunchScreen.storyboard */,
+				267661861CC632F20090C0A8 /* Info.plist */,
+				267661751CC632F20090C0A8 /* Supporting Files */,
+			);
+			path = YimaiWang;
+			sourceTree = "<group>";
+		};
+		267661751CC632F20090C0A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				267661761CC632F20090C0A8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2676618E1CC632F20090C0A8 /* YimaiWangTests */ = {
+			isa = PBXGroup;
+			children = (
+				2676618F1CC632F20090C0A8 /* YimaiWangTests.m */,
+				267661911CC632F20090C0A8 /* Info.plist */,
+			);
+			path = YimaiWangTests;
+			sourceTree = "<group>";
+		};
+		267661991CC632F20090C0A8 /* YimaiWangUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2676619A1CC632F20090C0A8 /* YimaiWangUITests.m */,
+				2676619C1CC632F20090C0A8 /* Info.plist */,
+			);
+			path = YimaiWangUITests;
+			sourceTree = "<group>";
+		};
+		267661A81CC633E50090C0A8 /* discover */ = {
+			isa = PBXGroup;
+			children = (
+				267661AD1CC6341E0090C0A8 /* C */,
+				267661AE1CC6341E0090C0A8 /* M */,
+				267661AF1CC6341E0090C0A8 /* V */,
+			);
+			path = discover;
+			sourceTree = "<group>";
+		};
+		267661A91CC633E50090C0A8 /* doctor circle */ = {
+			isa = PBXGroup;
+			children = (
+				267661B01CC6342E0090C0A8 /* C */,
+				267661B11CC6342E0090C0A8 /* M */,
+				267661B21CC6342E0090C0A8 /* V */,
+			);
+			path = "doctor circle";
+			sourceTree = "<group>";
+		};
+		267661AA1CC633E50090C0A8 /* home page */ = {
+			isa = PBXGroup;
+			children = (
+				267661B31CC6343A0090C0A8 /* C */,
+				267661B41CC6343A0090C0A8 /* M */,
+				267661B51CC6343A0090C0A8 /* V */,
+			);
+			path = "home page";
+			sourceTree = "<group>";
+		};
+		267661AB1CC633E50090C0A8 /* myhome */ = {
+			isa = PBXGroup;
+			children = (
+				267661B61CC634470090C0A8 /* C */,
+				267661B71CC634470090C0A8 /* M */,
+				267661B81CC634470090C0A8 /* V */,
+			);
+			path = myhome;
+			sourceTree = "<group>";
+		};
+		267661AC1CC633E50090C0A8 /* news */ = {
+			isa = PBXGroup;
+			children = (
+				267661B91CC634550090C0A8 /* C */,
+				267661BA1CC634550090C0A8 /* M */,
+				267661BB1CC634550090C0A8 /* V */,
+			);
+			path = news;
+			sourceTree = "<group>";
+		};
+		267661AD1CC6341E0090C0A8 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				267661C41CC635280090C0A8 /* DiscoverTableViewController.h */,
+				267661C51CC635280090C0A8 /* DiscoverTableViewController.m */,
+				267661C61CC635280090C0A8 /* DiscoverTableViewController.xib */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		267661AE1CC6341E0090C0A8 /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		267661AF1CC6341E0090C0A8 /* V */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		267661B01CC6342E0090C0A8 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				267661C91CC635410090C0A8 /* DoctorTableViewController.h */,
+				267661CA1CC635410090C0A8 /* DoctorTableViewController.m */,
+				267661CB1CC635410090C0A8 /* DoctorTableViewController.xib */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		267661B11CC6342E0090C0A8 /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		267661B21CC6342E0090C0A8 /* V */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		267661B31CC6343A0090C0A8 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				267661D11CC635660090C0A8 /* HomeTableViewController.h */,
+				267661D21CC635660090C0A8 /* HomeTableViewController.m */,
+				267661D31CC635660090C0A8 /* HomeTableViewController.xib */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		267661B41CC6343A0090C0A8 /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		267661B51CC6343A0090C0A8 /* V */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		267661B61CC634470090C0A8 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				267661D61CC6357F0090C0A8 /* MyHomeTableViewController.h */,
+				267661D71CC6357F0090C0A8 /* MyHomeTableViewController.m */,
+				267661D81CC6357F0090C0A8 /* MyHomeTableViewController.xib */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		267661B71CC634470090C0A8 /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		267661B81CC634470090C0A8 /* V */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		267661B91CC634550090C0A8 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				267661DB1CC6358C0090C0A8 /* NewsTableViewController.h */,
+				267661DC1CC6358C0090C0A8 /* NewsTableViewController.m */,
+				267661DD1CC6358C0090C0A8 /* NewsTableViewController.xib */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		267661BA1CC634550090C0A8 /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		267661BB1CC634550090C0A8 /* V */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		267661711CC632F20090C0A8 /* YimaiWang */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2676619F1CC632F20090C0A8 /* Build configuration list for PBXNativeTarget "YimaiWang" */;
+			buildPhases = (
+				2676616E1CC632F20090C0A8 /* Sources */,
+				2676616F1CC632F20090C0A8 /* Frameworks */,
+				267661701CC632F20090C0A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YimaiWang;
+			productName = YimaiWang;
+			productReference = 267661721CC632F20090C0A8 /* YimaiWang.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2676618A1CC632F20090C0A8 /* YimaiWangTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 267661A21CC632F20090C0A8 /* Build configuration list for PBXNativeTarget "YimaiWangTests" */;
+			buildPhases = (
+				267661871CC632F20090C0A8 /* Sources */,
+				267661881CC632F20090C0A8 /* Frameworks */,
+				267661891CC632F20090C0A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2676618D1CC632F20090C0A8 /* PBXTargetDependency */,
+			);
+			name = YimaiWangTests;
+			productName = YimaiWangTests;
+			productReference = 2676618B1CC632F20090C0A8 /* YimaiWangTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		267661951CC632F20090C0A8 /* YimaiWangUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 267661A51CC632F20090C0A8 /* Build configuration list for PBXNativeTarget "YimaiWangUITests" */;
+			buildPhases = (
+				267661921CC632F20090C0A8 /* Sources */,
+				267661931CC632F20090C0A8 /* Frameworks */,
+				267661941CC632F20090C0A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				267661981CC632F20090C0A8 /* PBXTargetDependency */,
+			);
+			name = YimaiWangUITests;
+			productName = YimaiWangUITests;
+			productReference = 267661961CC632F20090C0A8 /* YimaiWangUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2676616A1CC632F20090C0A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = YimaiWang;
+				TargetAttributes = {
+					267661711CC632F20090C0A8 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = BPTZ8B7HX9;
+					};
+					2676618A1CC632F20090C0A8 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = BPTZ8B7HX9;
+						TestTargetID = 267661711CC632F20090C0A8;
+					};
+					267661951CC632F20090C0A8 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = BPTZ8B7HX9;
+						TestTargetID = 267661711CC632F20090C0A8;
+					};
+				};
+			};
+			buildConfigurationList = 2676616D1CC632F20090C0A8 /* Build configuration list for PBXProject "YimaiWang" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 267661691CC632F20090C0A8;
+			productRefGroup = 267661731CC632F20090C0A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				267661711CC632F20090C0A8 /* YimaiWang */,
+				2676618A1CC632F20090C0A8 /* YimaiWangTests */,
+				267661951CC632F20090C0A8 /* YimaiWangUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		267661701CC632F20090C0A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				267661D51CC635660090C0A8 /* HomeTableViewController.xib in Resources */,
+				267661DF1CC6358C0090C0A8 /* NewsTableViewController.xib in Resources */,
+				267661CD1CC635410090C0A8 /* DoctorTableViewController.xib in Resources */,
+				267661DA1CC6357F0090C0A8 /* MyHomeTableViewController.xib in Resources */,
+				267661851CC632F20090C0A8 /* LaunchScreen.storyboard in Resources */,
+				267661821CC632F20090C0A8 /* Assets.xcassets in Resources */,
+				267661C81CC635280090C0A8 /* DiscoverTableViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		267661891CC632F20090C0A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		267661941CC632F20090C0A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2676616E1CC632F20090C0A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				267661CC1CC635410090C0A8 /* DoctorTableViewController.m in Sources */,
+				267661D41CC635660090C0A8 /* HomeTableViewController.m in Sources */,
+				267661DE1CC6358C0090C0A8 /* NewsTableViewController.m in Sources */,
+				267661C71CC635280090C0A8 /* DiscoverTableViewController.m in Sources */,
+				2676617A1CC632F20090C0A8 /* AppDelegate.m in Sources */,
+				267661E31CC6443F0090C0A8 /* RootTabBarController.m in Sources */,
+				267661D91CC6357F0090C0A8 /* MyHomeTableViewController.m in Sources */,
+				267661771CC632F20090C0A8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		267661871CC632F20090C0A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				267661901CC632F20090C0A8 /* YimaiWangTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		267661921CC632F20090C0A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2676619B1CC632F20090C0A8 /* YimaiWangUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2676618D1CC632F20090C0A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 267661711CC632F20090C0A8 /* YimaiWang */;
+			targetProxy = 2676618C1CC632F20090C0A8 /* PBXContainerItemProxy */;
+		};
+		267661981CC632F20090C0A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 267661711CC632F20090C0A8 /* YimaiWang */;
+			targetProxy = 267661971CC632F20090C0A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		267661831CC632F20090C0A8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				267661841CC632F20090C0A8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2676619D1CC632F20090C0A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2676619E1CC632F20090C0A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		267661A01CC632F20090C0A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YimaiWang/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yimai.com.YimaiWang;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		267661A11CC632F20090C0A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YimaiWang/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yimai.com.YimaiWang;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		267661A31CC632F20090C0A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YimaiWangTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yimai.com.YimaiWangTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YimaiWang.app/YimaiWang";
+			};
+			name = Debug;
+		};
+		267661A41CC632F20090C0A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YimaiWangTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yimai.com.YimaiWangTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YimaiWang.app/YimaiWang";
+			};
+			name = Release;
+		};
+		267661A61CC632F20090C0A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YimaiWangUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yimai.com.YimaiWangUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YimaiWang;
+			};
+			name = Debug;
+		};
+		267661A71CC632F20090C0A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YimaiWangUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yimai.com.YimaiWangUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YimaiWang;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2676616D1CC632F20090C0A8 /* Build configuration list for PBXProject "YimaiWang" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2676619D1CC632F20090C0A8 /* Debug */,
+				2676619E1CC632F20090C0A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2676619F1CC632F20090C0A8 /* Build configuration list for PBXNativeTarget "YimaiWang" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				267661A01CC632F20090C0A8 /* Debug */,
+				267661A11CC632F20090C0A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		267661A21CC632F20090C0A8 /* Build configuration list for PBXNativeTarget "YimaiWangTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				267661A31CC632F20090C0A8 /* Debug */,
+				267661A41CC632F20090C0A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		267661A51CC632F20090C0A8 /* Build configuration list for PBXNativeTarget "YimaiWangUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				267661A61CC632F20090C0A8 /* Debug */,
+				267661A71CC632F20090C0A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2676616A1CC632F20090C0A8 /* Project object */;
+}
