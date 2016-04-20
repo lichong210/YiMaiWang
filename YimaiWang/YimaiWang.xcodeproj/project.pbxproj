@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		266486C21CC66E9C001953D9 /* LaunchImage-700-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 266486C11CC66E9C001953D9 /* LaunchImage-700-568h@2x.png */; };
 		267661771CC632F20090C0A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 267661761CC632F20090C0A8 /* main.m */; };
 		2676617A1CC632F20090C0A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 267661791CC632F20090C0A8 /* AppDelegate.m */; };
 		267661821CC632F20090C0A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 267661811CC632F20090C0A8 /* Assets.xcassets */; };
@@ -44,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		266486C11CC66E9C001953D9 /* LaunchImage-700-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-700-568h@2x.png"; sourceTree = "<group>"; };
 		267661721CC632F20090C0A8 /* YimaiWang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YimaiWang.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		267661761CC632F20090C0A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		267661781CC632F20090C0A8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -292,6 +294,7 @@
 		267661B61CC634470090C0A8 /* C */ = {
 			isa = PBXGroup;
 			children = (
+				266486C11CC66E9C001953D9 /* LaunchImage-700-568h@2x.png */,
 				267661D61CC6357F0090C0A8 /* MyHomeTableViewController.h */,
 				267661D71CC6357F0090C0A8 /* MyHomeTableViewController.m */,
 				267661D81CC6357F0090C0A8 /* MyHomeTableViewController.xib */,
@@ -445,6 +448,7 @@
 			files = (
 				267661D51CC635660090C0A8 /* HomeTableViewController.xib in Resources */,
 				267661DF1CC6358C0090C0A8 /* NewsTableViewController.xib in Resources */,
+				266486C21CC66E9C001953D9 /* LaunchImage-700-568h@2x.png in Resources */,
 				267661CD1CC635410090C0A8 /* DoctorTableViewController.xib in Resources */,
 				267661DA1CC6357F0090C0A8 /* MyHomeTableViewController.xib in Resources */,
 				267661851CC632F20090C0A8 /* LaunchScreen.storyboard in Resources */,
@@ -699,6 +703,7 @@
 				267661A11CC632F20090C0A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		267661A21CC632F20090C0A8 /* Build configuration list for PBXNativeTarget "YimaiWangTests" */ = {
 			isa = XCConfigurationList;
@@ -707,6 +712,7 @@
 				267661A41CC632F20090C0A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		267661A51CC632F20090C0A8 /* Build configuration list for PBXNativeTarget "YimaiWangUITests" */ = {
 			isa = XCConfigurationList;
@@ -715,6 +721,7 @@
 				267661A71CC632F20090C0A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
