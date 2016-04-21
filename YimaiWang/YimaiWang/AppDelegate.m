@@ -17,6 +17,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
+    [NSThread sleepForTimeInterval:0.6];//设置启动页面时间
     //加载五个tabbar视图
     self.window =[[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
@@ -28,9 +29,7 @@
     
     
     
-    
-    
-    
+
       return YES;
 }
 

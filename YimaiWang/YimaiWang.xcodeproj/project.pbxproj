@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		266486C21CC66E9C001953D9 /* LaunchImage-700-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 266486C11CC66E9C001953D9 /* LaunchImage-700-568h@2x.png */; };
+		261EFC881CC86F2300A39D94 /* AVOSCloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 261EFC871CC86F2300A39D94 /* AVOSCloud.framework */; };
+		2620102B1CC711BE0045F7DB /* MyHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 262010291CC711BE0045F7DB /* MyHomeViewController.m */; };
+		2620102C1CC711BE0045F7DB /* MyHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2620102A1CC711BE0045F7DB /* MyHomeViewController.xib */; };
+		2620102E1CC731630045F7DB /* drawer_line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2620102D1CC731630045F7DB /* drawer_line@2x.png */; };
+		26204BCB1CC76C6A009520DE /* myhome.plist in Resources */ = {isa = PBXBuildFile; fileRef = 26204BCA1CC76C6A009520DE /* myhome.plist */; };
 		267661771CC632F20090C0A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 267661761CC632F20090C0A8 /* main.m */; };
 		2676617A1CC632F20090C0A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 267661791CC632F20090C0A8 /* AppDelegate.m */; };
 		267661821CC632F20090C0A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 267661811CC632F20090C0A8 /* Assets.xcassets */; };
@@ -20,8 +24,6 @@
 		267661CD1CC635410090C0A8 /* DoctorTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 267661CB1CC635410090C0A8 /* DoctorTableViewController.xib */; };
 		267661D41CC635660090C0A8 /* HomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 267661D21CC635660090C0A8 /* HomeTableViewController.m */; };
 		267661D51CC635660090C0A8 /* HomeTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 267661D31CC635660090C0A8 /* HomeTableViewController.xib */; };
-		267661D91CC6357F0090C0A8 /* MyHomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 267661D71CC6357F0090C0A8 /* MyHomeTableViewController.m */; };
-		267661DA1CC6357F0090C0A8 /* MyHomeTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 267661D81CC6357F0090C0A8 /* MyHomeTableViewController.xib */; };
 		267661DE1CC6358C0090C0A8 /* NewsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 267661DC1CC6358C0090C0A8 /* NewsTableViewController.m */; };
 		267661DF1CC6358C0090C0A8 /* NewsTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 267661DD1CC6358C0090C0A8 /* NewsTableViewController.xib */; };
 		267661E31CC6443F0090C0A8 /* RootTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 267661E21CC6443F0090C0A8 /* RootTabBarController.m */; };
@@ -45,7 +47,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		266486C11CC66E9C001953D9 /* LaunchImage-700-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-700-568h@2x.png"; sourceTree = "<group>"; };
+		261EFC871CC86F2300A39D94 /* AVOSCloud.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AVOSCloud.framework; sourceTree = "<group>"; };
+		262010281CC711BE0045F7DB /* MyHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyHomeViewController.h; sourceTree = "<group>"; };
+		262010291CC711BE0045F7DB /* MyHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyHomeViewController.m; sourceTree = "<group>"; };
+		2620102A1CC711BE0045F7DB /* MyHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyHomeViewController.xib; sourceTree = "<group>"; };
+		2620102D1CC731630045F7DB /* drawer_line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "drawer_line@2x.png"; sourceTree = "<group>"; };
+		26204BCA1CC76C6A009520DE /* myhome.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = myhome.plist; sourceTree = "<group>"; };
 		267661721CC632F20090C0A8 /* YimaiWang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YimaiWang.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		267661761CC632F20090C0A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		267661781CC632F20090C0A8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -68,9 +75,6 @@
 		267661D11CC635660090C0A8 /* HomeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTableViewController.h; sourceTree = "<group>"; };
 		267661D21CC635660090C0A8 /* HomeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewController.m; sourceTree = "<group>"; };
 		267661D31CC635660090C0A8 /* HomeTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeTableViewController.xib; sourceTree = "<group>"; };
-		267661D61CC6357F0090C0A8 /* MyHomeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyHomeTableViewController.h; sourceTree = "<group>"; };
-		267661D71CC6357F0090C0A8 /* MyHomeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyHomeTableViewController.m; sourceTree = "<group>"; };
-		267661D81CC6357F0090C0A8 /* MyHomeTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyHomeTableViewController.xib; sourceTree = "<group>"; };
 		267661DB1CC6358C0090C0A8 /* NewsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsTableViewController.h; sourceTree = "<group>"; };
 		267661DC1CC6358C0090C0A8 /* NewsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsTableViewController.m; sourceTree = "<group>"; };
 		267661DD1CC6358C0090C0A8 /* NewsTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewsTableViewController.xib; sourceTree = "<group>"; };
@@ -83,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				261EFC881CC86F2300A39D94 /* AVOSCloud.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,9 +108,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		261EFC861CC86F1000A39D94 /* formwark */ = {
+			isa = PBXGroup;
+			children = (
+				261EFC871CC86F2300A39D94 /* AVOSCloud.framework */,
+			);
+			path = formwark;
+			sourceTree = "<group>";
+		};
 		267661691CC632F20090C0A8 = {
 			isa = PBXGroup;
 			children = (
+				261EFC861CC86F1000A39D94 /* formwark */,
 				267661A81CC633E50090C0A8 /* discover */,
 				267661A91CC633E50090C0A8 /* doctor circle */,
 				267661AA1CC633E50090C0A8 /* home page */,
@@ -136,6 +150,7 @@
 				267661E11CC6443F0090C0A8 /* RootTabBarController.h */,
 				267661E21CC6443F0090C0A8 /* RootTabBarController.m */,
 				267661811CC632F20090C0A8 /* Assets.xcassets */,
+				2620102D1CC731630045F7DB /* drawer_line@2x.png */,
 				267661831CC632F20090C0A8 /* LaunchScreen.storyboard */,
 				267661861CC632F20090C0A8 /* Info.plist */,
 				267661751CC632F20090C0A8 /* Supporting Files */,
@@ -294,10 +309,10 @@
 		267661B61CC634470090C0A8 /* C */ = {
 			isa = PBXGroup;
 			children = (
-				266486C11CC66E9C001953D9 /* LaunchImage-700-568h@2x.png */,
-				267661D61CC6357F0090C0A8 /* MyHomeTableViewController.h */,
-				267661D71CC6357F0090C0A8 /* MyHomeTableViewController.m */,
-				267661D81CC6357F0090C0A8 /* MyHomeTableViewController.xib */,
+				262010281CC711BE0045F7DB /* MyHomeViewController.h */,
+				262010291CC711BE0045F7DB /* MyHomeViewController.m */,
+				2620102A1CC711BE0045F7DB /* MyHomeViewController.xib */,
+				26204BCA1CC76C6A009520DE /* myhome.plist */,
 			);
 			path = C;
 			sourceTree = "<group>";
@@ -448,12 +463,13 @@
 			files = (
 				267661D51CC635660090C0A8 /* HomeTableViewController.xib in Resources */,
 				267661DF1CC6358C0090C0A8 /* NewsTableViewController.xib in Resources */,
-				266486C21CC66E9C001953D9 /* LaunchImage-700-568h@2x.png in Resources */,
 				267661CD1CC635410090C0A8 /* DoctorTableViewController.xib in Resources */,
-				267661DA1CC6357F0090C0A8 /* MyHomeTableViewController.xib in Resources */,
+				2620102E1CC731630045F7DB /* drawer_line@2x.png in Resources */,
 				267661851CC632F20090C0A8 /* LaunchScreen.storyboard in Resources */,
 				267661821CC632F20090C0A8 /* Assets.xcassets in Resources */,
+				2620102C1CC711BE0045F7DB /* MyHomeViewController.xib in Resources */,
 				267661C81CC635280090C0A8 /* DiscoverTableViewController.xib in Resources */,
+				26204BCB1CC76C6A009520DE /* myhome.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,8 +500,8 @@
 				267661C71CC635280090C0A8 /* DiscoverTableViewController.m in Sources */,
 				2676617A1CC632F20090C0A8 /* AppDelegate.m in Sources */,
 				267661E31CC6443F0090C0A8 /* RootTabBarController.m in Sources */,
-				267661D91CC6357F0090C0A8 /* MyHomeTableViewController.m in Sources */,
 				267661771CC632F20090C0A8 /* main.m in Sources */,
+				2620102B1CC711BE0045F7DB /* MyHomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -620,6 +636,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/formwark",
+				);
 				INFOPLIST_FILE = YimaiWang/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yimai.com.YimaiWang;
@@ -631,6 +651,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/formwark",
+				);
 				INFOPLIST_FILE = YimaiWang/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yimai.com.YimaiWang;

@@ -10,7 +10,7 @@
 #import "DiscoverTableViewController.h"
 #import "DoctorTableViewController.h"
 #import "HomeTableViewController.h"
-#import "MyHomeTableViewController.h"
+#import "MyHomeViewController.h"
 #import "NewsTableViewController.h"
 @interface RootTabBarController ()
 
@@ -34,12 +34,12 @@
   
     DiscoverTableViewController *vc4 = [[DiscoverTableViewController alloc]init];
     [self addOneChildVC:vc4 title:@"发现"];
-    MyHomeTableViewController *vc5 = [[MyHomeTableViewController alloc]init];
-    [self addOneChildVC:vc5 title:@"我的"];
+    MyHomeViewController *vc5 = [[MyHomeViewController alloc]init];
+    vc5.title=@"我的";
+    [self addChildViewController:vc5];
    
-    
-  //  self.navigationItem.title = self.tabBarItem.title;.
- }
+
+   }
 
 
 - (void)addOneChildVC:(UIViewController *)childVC title:(NSString *)title
